@@ -8,11 +8,11 @@ html, body{
     overflow: hidden;
 }
 
-.container{
+.clock{
     width: 100vw;
     height: 100vh;
     color: #fff;
-    font-size: 25vmax;
+    font-size: 15vmax;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,8 +20,8 @@ html, body{
 }
 
 @media screen and (max-width: 500px) {
-    .container{
+    .clock{
         transform: rotate(90deg);   
-        font-size: 15vmax;     
+        font-size: 8vmax;     
     }
 }
