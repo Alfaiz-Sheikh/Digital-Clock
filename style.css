@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-size: 25vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        flex-direction: column;
+    }
+    #colon{
+        display: none;
+    }
+}
