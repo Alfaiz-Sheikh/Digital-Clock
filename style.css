@@ -1,24 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #000;
+}
+
+html, body{
+    overflow: hidden;
 }
 
 .container{
     width: 100vw;
     height: 100vh;
-    background-color: #000;
     color: #fff;
     font-size: 25vmax;
     display: flex;
     align-items: center;
     justify-content: center;
+    transform-origin: center;
 }
 
 @media screen and (max-width: 500px) {
     .container{
-        flex-direction: column;
-    }
-    #colon{
-        display: none;
+        transform: rotate(90deg);   
+        font-size: 15vmax;     
     }
 }
